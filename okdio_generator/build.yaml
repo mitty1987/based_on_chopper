@@ -1,9 +1,9 @@
 # Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
 builders:
   chopper_generator:
-    target: ":chopper_generator"
-    import: "package:chopper_generator/chopper_generator.dart"
+    target: ":okdio_generator"
+    import: "package:okdio_generator/okdio_generator.dart"
     builder_factories: ["chopperGeneratorFactory"]
-    build_extensions: {".dart": [".chopper.dart"]}
+    build_extensions: {".dart": [".okdio.dart"]}
     auto_apply: root_package
     build_to: source

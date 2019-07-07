@@ -1,4 +1,4 @@
-library chopper;
+library okdio;
 
 export 'src/annotations.dart';
 export 'src/base.dart';

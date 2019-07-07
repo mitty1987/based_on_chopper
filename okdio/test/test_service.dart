@@ -1,5 +1,5 @@
 
-//part "test_service.chopper.dart";
+//part "test_service.okdio.dart";
 //
 //@ChopperApi(baseUrl: "/test")
 //abstract class HttpTestService extends ChopperService {

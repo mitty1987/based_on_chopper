@@ -1,5 +1,5 @@
 library example.object_to_json;
-import 'package:chopper/chopper.dart';
+import 'package:okdio/okdio.dart';
 import 'package:dson/dson.dart';
 
 part 'person.g.dart';

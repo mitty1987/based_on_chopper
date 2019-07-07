@@ -12,7 +12,7 @@ import 'package:dart_style/dart_style.dart';
 
 import 'package:source_gen/source_gen.dart';
 import 'package:code_builder/code_builder.dart';
-import 'package:okdio/chopper.dart' as chopper;
+import 'package:okdio/okdio.dart' as chopper;
 
 const _clientVar = 'client';
 const _baseUrlVar = "baseUrl";
@@ -794,6 +794,6 @@ class ChopperGenerator extends GeneratorForAnnotation<chopper.ChopperApi> {
 
 Builder chopperGeneratorFactoryBuilder({String header}) => new PartBuilder(
       [new ChopperGenerator()],
-      ".chopper.dart",
+      ".okdio.dart",
       header: header,
     );

@@ -1,4 +1,4 @@
-import 'package:dson/dson.dart';
+import 'package:built_mirrors_core/built_mirrors.dart';
 import 'package:meta/meta.dart';
 import 'request.dart';
 import 'response.dart';

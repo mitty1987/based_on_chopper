@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:chopper/chopper.dart';
-import 'package:chopper/src/interceptor.dart';
+import 'package:okdio/okdio.dart';
+import 'package:okdio/src/interceptor.dart';
 import 'definition.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:dio/dio.dart';

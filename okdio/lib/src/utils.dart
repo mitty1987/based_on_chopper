@@ -1,4 +1,4 @@
-import 'package:okdio/chopper.dart';
+import 'package:okdio/okdio.dart';
 import 'package:logging/logging.dart';
 
 Request applyHeader(Request request, String name, String value) =>

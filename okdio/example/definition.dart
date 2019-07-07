@@ -1,10 +1,10 @@
 import "dart:async";
-import 'package:chopper/chopper.dart';
+import 'package:okdio/okdio.dart';
 import 'json/person.dart';
 import 'package:dio/dio.dart';
 import 'package:dson/dson.dart';
 import 'package:rxdart/rxdart.dart';
-part "definition.chopper.dart";
+part "definition.okdio.dart";
 
 @ChopperApi(baseUrl: "")
 abstract class MyService extends ChopperService {
