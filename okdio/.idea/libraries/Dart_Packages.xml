@@ -404,6 +404,7 @@
         <entry key="rxdart">
           <value>
             <list>
+              <option value="$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.22.0/lib" />
               <option value="$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.21.0/lib" />
             </list>
           </value>
@@ -637,6 +638,7 @@
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/pubspec_parse-0.1.4/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.3/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.21.0/lib" />
+      <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.22.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/scratch_space-0.0.3+2/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/serializable_core-0.11.2+1/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/shelf-0.7.5/lib" />

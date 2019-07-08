@@ -1,6 +1,6 @@
 name: okdio
 description: okdio is an dio client generator using source_gen and inspired from retrofit based on chopper
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/mitty1987/based_on_chopper
 author: Private <cjasq1@gmail.com>
 
@@ -8,9 +8,9 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  dio: ^2.0.7
-  meta: ^1.1.2
-  rxdart: ^0.21.0
+  dio: ^2.1.10
+  meta: ^1.1.6
+  rxdart: ^0.22.0
   logging: ^0.11.3
   dson: ^0.15.5
 
