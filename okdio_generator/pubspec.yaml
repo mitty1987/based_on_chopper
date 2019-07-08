@@ -1,6 +1,6 @@
 name: okdio_generator
 description: okdio is an dio client generator using source_gen and inspired from retrofit based on chopper
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/mitty1987/based_on_chopper
 author: Private <cjasq1@gmail.com>
 

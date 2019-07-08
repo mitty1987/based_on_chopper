@@ -331,6 +331,13 @@
             </list>
           </value>
         </entry>
+        <entry key="okdio">
+          <value>
+            <list>
+              <option value="$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/okdio-0.0.2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="package_config">
           <value>
             <list>
@@ -405,7 +412,6 @@
           <value>
             <list>
               <option value="$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.22.0/lib" />
-              <option value="$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.21.0/lib" />
             </list>
           </value>
         </entry>
@@ -627,6 +633,7 @@
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/mime-0.9.6+3/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/multi_server_socket-1.0.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/node_preamble-1.4.4/lib" />
+      <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/okdio-0.0.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/package_config-1.0.5/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/package_resolver-1.0.10/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.6.2/lib" />
@@ -637,7 +644,6 @@
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/pub_semver-1.4.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/pubspec_parse-0.1.4/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.3/lib" />
-      <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.21.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.22.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/scratch_space-0.0.3+2/lib" />
       <root url="file://$USER_HOME$/development/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/serializable_core-0.11.2+1/lib" />
