@@ -1,4 +1,3 @@
-import 'package:built_mirrors_core/built_mirrors.dart';
 import 'package:meta/meta.dart';
 import 'request.dart';
 import 'response.dart';
@@ -14,12 +13,6 @@ class ChopperApi {
   const ChopperApi({
     this.baseUrl: "/",
   });
-}
-
-@immutable
-class AnT extends Annotation {
-  final int index;
-  const AnT(this.index);
 }
 
 @immutable

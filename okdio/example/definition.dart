@@ -4,11 +4,11 @@ import 'json/person.dart';
 import 'package:dio/dio.dart';
 import 'package:dson/dson.dart';
 import 'package:rxdart/rxdart.dart';
-part "definition.okdio.dart";
+//part "definition.okdio.dart";
 
 @ChopperApi(baseUrl: "")
 abstract class MyService extends ChopperService {
-  static MyService create([ChopperClient client]) => _$MyService(client);
+//  static MyService create([ChopperClient client]) => _$MyService(client);
 
 //  @Get(path: "/{id}")
 //  Observable<MyResponse<List<Map<String, dynamic>>>> getResource(
@@ -25,9 +25,9 @@ abstract class MyService extends ChopperService {
 //
 
 
-  @multipart
-  @Post(path: "/test2")
-  Observable<Map<String, Person<Person2<Person3>, Person4>>> getResourceAll4(@Part() UploadFileInfo b, {@Field('file1') int a = 1, @Field('c1') int c});
+//  @multipart
+//  @Post(path: "/test2")
+//  Stream<Map<String, Person<Person2<Person3>, Person4>>> getResourceAll4(@Part() UploadFileInfo b, {@Field('file1') int a = 1, @Field('c1') int c});
 
 //  @Get(path: "/test")
 //  Observable<MyResponse<Person<Person2<Person3>, Person4>>> getResourceAll3();
@@ -56,8 +56,8 @@ abstract class MyService extends ChopperService {
 //  @Get(path: "/test5")
 //  Observable<List<Person3>> getResourceAll7();
 
-  @Get(path: "/test71")
-  Observable<Person2<List<Person4>>> getResourceAll71();
+//  @Get(path: "/test71")
+//  Stream<Person2<List<Person4>>> getResourceAll71();
 
 //  @Get(path: "/test6")
 //  Observable<Person2> getResourceAll6();

@@ -20,7 +20,7 @@ class MyResponse<Body> {
 
   bool get isSuccessful => statusCode >= 200 && statusCode < 300;
 
-  HttpHeaders get headers => base.headers;
+  Headers get headers => base.headers;
 
   Uint8List get bodyBytes => (body as List<int>).cast<int>();
 

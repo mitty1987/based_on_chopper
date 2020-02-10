@@ -53,7 +53,7 @@ class ChopperClient {
   }) : dio = (ops != null) ? Dio(ops) : (Dio()
           ..options.connectTimeout = 15000
           ..options.receiveTimeout = 15000
-          ..options.contentType = ContentType.parse("application/x-www-form-urlencoded"))
+          ..options.contentType = "application/x-www-form-urlencoded")
   {
     if (adapter != null) dio.httpClientAdapter = adapter;
     if (iterable != null) dio.interceptors.addAll(iterable);
@@ -86,9 +86,9 @@ class ChopperClient {
     return converted;
   }
 
-  Observable<MyResponse<Body>> sendWarpMyResponse<Body>(Request request) {
+  Stream<MyResponse<Body>> sendWarpMyResponse<Body>(Request request) {
     CancelToken token = CancelToken();
-    return Observable(_request<Body>(request, token).asStream()).map<MyResponse<Body>>((resp) {
+    return _request<Body>(request, token).asStream().map<MyResponse<Body>>((resp) {
       MyResponse<Body> res = MyResponse<Body>(resp, resp.data);
       return res;
     }).doOnCancel(() {
@@ -100,9 +100,9 @@ class ChopperClient {
     });
   }
 
-  Observable<Body> send<Body>(Request request) {
+  Stream<Body> send<Body>(Request request) {
     CancelToken token = CancelToken();
-    return Observable(_request<Body>(request, token).asStream()).map<Body>((resp) {
+    return _request<Body>(request, token).asStream().map<Body>((resp) {
       return resp.data;
     }).handleError((e) {
       throw errorConverter((e as DioError));
@@ -153,7 +153,7 @@ class ChopperClient {
     }
   }
 
-  Observable get<Body>(
+  Stream get<Body>(
     String url, {
     Map<String, String> headers,
   }) =>
@@ -166,7 +166,7 @@ class ChopperClient {
         ),
       );
 
-  Observable post<Body>(
+  Stream post<Body>(
     String url, {
     dynamic body,
     List<PartValue> parts,
@@ -183,7 +183,7 @@ class ChopperClient {
         ),
       );
 
-  Observable put<Body>(
+  Stream put<Body>(
     String url, {
     dynamic body,
     List<PartValue> parts,
@@ -200,7 +200,7 @@ class ChopperClient {
         ),
       );
 
-  Observable patch<Body>(
+  Stream patch<Body>(
     String url, {
     dynamic body,
     List<PartValue> parts,
@@ -217,7 +217,7 @@ class ChopperClient {
         ),
       );
 
-  Observable delete<Body>(
+  Stream delete<Body>(
     String url, {
     Map<String, String> headers,
   }) =>
